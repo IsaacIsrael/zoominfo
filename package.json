@@ -1,0 +1,15 @@
+{
+  "name": "zoominfo",
+  "scripts": {
+    "server": "ttab -t 'Server' npm start --prefix server",
+    "mobile": "ttab -t 'Mobile' npm start --prefix mobile",
+    "start": "npm run server && npm run mobile",
+    "install:server": "ttab -t 'Server' npm install --prefix server",
+    "install:mobile": "ttab -t 'Mobile' npm install --prefix mobile",
+    "setup": "npm i && npm run install:server && npm run install:mobile"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ttab": "^0.7.2"
+  }
+}

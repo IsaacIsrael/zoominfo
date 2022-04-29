@@ -1,0 +1,6 @@
+[submodule "mobile"]
+	path = mobile
+	url = git@github.com:IsaacIsrael/zoominfo-mobile.git
+[submodule "server"]
+	path = server
+	url = git@github.com:IsaacIsrael/zoominfo-server.git
